@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bài học</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f6f8fc;
+    }
+
+    /* Banner */
+    .banner {
+        width: 100%;
+        height: 240px;
+        background: url('bai16.jpg') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    /* Tiêu đề giữa banner */
+    .banner-title {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.9);
+    }
+
+    /* Nút quay về */
+    .back-btn {
+        display: inline-block;
+        margin: 25px;
+        background: #2a4d69;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .back-btn:hover {
+        background: #1d3550;
+    }
+
+    /* Tiêu đề phần */
+    h2 {
+        font-size: 32px;
+        margin-top: 40px;
+        color: #1a2e40;
+        text-align: left;
+        font-weight: 700;
+        font-family: Arial, sans-serif; /* phông bình thường */
+    }
+
+    /* Khung đề bài */
+    .problem-box {
+        background: white;
+        padding: 18px 22px;
+        border-left: 6px solid #2a4d69;
+        border-radius: 8px;
+        margin: 20px 0;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    }
+
+    /* Nội dung */
+    .content {
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+</style>
+</head>
+
+<body>
+
+<a href="https://nhungo2210028-hash.github.io/uuujij" class="back-btn">← Quay về trang chủ</a>
+
+<div class="banner">
+    <div class="banner-title">BÀI 16: ĐỊNH DẠNG KHUNG</div>
+</div>
+
+<div class="content">
+
+    <h2>LUYỆN TẬP</h2>
+
+    <div class="problem-box">
+        <b>Đề bài:</b>  
+          Luyện tập 1 trang 95 Tin học 12: Phần tử html có thể ẩn đi trên trang web được không? Nếu có thì dùng lệnh CSS gì?
+    </div>
+  
+    <p>
+     Có, phần tử HTML có thể được ẩn đi trên trang web bằng cách sử dụng lệnh CSS display: none;.
+
+    </p>
+
+      <div class="problem-box">
+        <b>Đề bài:</b>       
+        Luyện tập 2 trang 95 Tin học 12: Hãy giải thích ý nghĩa định dạng sau:. test . test _more { background-color: red;}
+    </div>
+
+    <p>
+    <p>- test.test_more: Đây là một bộ chọn đồng thời (class selector) áp dụng cho các phần tử có cả hai lớp tên là "test" và "test_more". Điều này có nghĩa là chỉ các phần tử có cả hai lớp tên này sẽ được áp dụng định dạng.</p>
+<p>- background-color: red;: Đây là thuộc tính CSS được sử dụng để đặt màu nền (background-color) của các phần tử được chọn. Trong trường hợp này, màu nền của các phần tử có lớp tên "test" và "test_more" sẽ được đặt là đỏ (red).</p>
+
+    </p>
+
+
+    <h2>VẬN DỤNG</h2>
+
+    <div class="problem-box">
+        <b>Đề bài:</b>  
+     Vận dụng 1 trang 95 Tin học 12: Giả sử nội dung trang web của em có rất nhiều thẻ p, trong đó có ba đoạn mà em thấy quan trọng nhất, kí hiệu các đoạn này là P1, P2, P3. Có cách nào thiết lập định dạng CSS để có thể định dạng P1 khác biệt, P2 và P3 có cùng kiểu và cũng khác biệt không? Tất cả các đoạn còn lại có định dạng giống nhau. Hãy nêu cách giải quyết vấn đề của em.
+    </div>
+
+    <p>
+<p>- Gắn một lớp tên riêng cho P1, ví dụ: < p class= "important" >Đoạn P1< /p>. Đây là lớp tên dùng để định dạng đoạn P1.</p>
+<p>- Gắn cùng một lớp tên cho P2 và P3, ví dụ: < p class = "normal" Đoạn P2< /p> và < p class = "normal" >Đoạn P3< /p>. Đây là lớp tên dùng để định dạng đoạn P2 và P3.</p>
+<p>- Sử dụng CSS để áp dụng các định dạng khác biệt cho các lớp tên tương ứng.</p>
+    </p>
+ <div class="problem-box">
+        <b>Đề bài:</b>  
+    Vận dụng 2 trang 95 Tin học 12: Có thể thiết lập định dạng cho các khung với thông số khung, viền trên, dưới, trái, phải khác nhau được không? Em hãy tìm hiểu và trình bày cách thiết lập định dạng CSS cho các khung, viền như vậy.
+    </div>
+
+    <p>
+<p>Có, bạn có thể thiết lập định dạng khác nhau cho các khung và viền trên, dưới, trái, phải bằng cách sử dụng thuộc tính CSS border và các thuộc tính liên quan.</p>
+<p>Cách thiết lập định dạng CSS cho các khung và viền như vậy như sau:</p>
+<p>- Sử dụng thuộc tính border để định dạng viền của khung. </p>
+<p>Ví dụ:</p>
+<p>div {</p>
+<p>       border-top: 1px solid red; </p>
+<p>       border-bottom: 2px dashed blue; </p>
+<p>       border-left: 3px dotted green; </p>
+<p>       border-right: 4px double purple;</p>
+<p>}
+
+<p>Trong ví dụ này, tất cả các phần tử < div > sẽ có viền 2px, màu đen và loại viền là dạng nét liền (solid).</p>
+<p>- Để thiết lập viền khác nhau cho các cạnh, bạn có thể sử dụng các thuộc tính border-top, border-bottom, border-left và border-right để chỉ định viền cho từng cạnh riêng biệt.</p>
+<p>Ví dụ:</p>
+<p>div {</p>
+<p>  border-top: 1px solid red; </p>
+<p>  border-bottom: 2px dashed blue; </p>
+<p>  border-left: 3px dotted green; </p>
+<p>  border-right: 4px double purple;</p>
+<p>}
+<p>Trong ví dụ này, các phần tử < div > sẽ có viền đỏ ở phía trên, viền nét đứt màu xanh ở phía dưới, viền nét chấm màu xanh lá cây ở phía trái và viền đôi màu tím ở phía phải.</p>
+    </p>
+</div>
+
+</body>
+</html>
